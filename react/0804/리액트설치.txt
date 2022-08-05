@@ -1,0 +1,54 @@
+-리액트 설치전 필요-
+1. 노드
+-자바스크립트를 실행할 수 있는 환경
+
+2. npm -----> yarn  설치
+- npm i yarn --global 
+=====> 보완 : npx
+
+3. 프로젝트 생성
+    yarn create react-app 프로젝트명
+    - 프로젝트가 안만들어지면 윈도우파워셀(관리자권한실행)에서 
+        `get-help Set-ExecutionPolicy     ----> Y
+        `Set-ExecutionPolicy RemoteSigned   ----> Y
+
+
+4. app.js 변경
+
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div>
+
+    </div>
+  );
+}
+
+export default App;
+
+
+5. 필요없는 파일삭제
+-logo.svg
+-App.test.js
+
+6. jsx -> 리액트작업
+   js -> 작동작업
+
+
+*BABEL - 2015버전 코드를 이전 버전으로 변환해주는 틀
+*Webpack - 앱 사용자에게 제공할 수 있도록 도와주는 틀
+*EXLint - 코드에 잘못된 점이 있으면 경고를 표시해주는 틀
+*
+*
+
+
+
+
+DOM / 가상 DOM(SPA) 랭귤러 뷰 리액트
+
+@리액트
+-React : 웹 어플리케이션 UI 개발
+-React Native : 모바일 어플리케이션
+-React + Electron : 데스크탑 어플리케이션
