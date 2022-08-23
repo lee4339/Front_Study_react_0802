@@ -1,0 +1,6 @@
+
+
+
+styled-components: JS안에 css를 작성하는 라이브러리입니다.
+
+yarn add styled-components
