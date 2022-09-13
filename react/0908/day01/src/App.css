@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+
+.mainImg {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: blue;
+  /* background: url(./images/main.jpg) no-repeat 50% 0; */
+}
+
+.contents {
+  width: 100%;
+  height: 2000px;
+  background-color: blueviolet;
+  padding-top: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: yellowgreen;
+}

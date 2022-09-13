@@ -1,0 +1,31 @@
+.headerIn {
+    width: 1500px;
+    height: 150px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerIn .logo {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+}
+
+.headerIn .menu {
+    width: 900px;
+    height: 150px;
+    background-color: turquoise;
+}
+
+.menu ul {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    font-size: 20px;
+}
